@@ -5,10 +5,18 @@ To make file at stage level
 =>  git add <filename>
 
 To make file onstage
-=> git 	restore --staged <filename>
+=>  git restore --staged <filename>
 
 To commit changes in folder
 =>  git commit -m "message to be written"
 
-To get the history of commits
-=> git log
+// stashing the changes
+
+We can make changes stacked before committing them and after staging by using 
+=>  git stash
+
+We can also put that changes to upstaged area by using 
+=>  git stash pop
+
+We can remove all the commits above <commit ID>
+=>  git reset <commit ID>
