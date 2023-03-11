@@ -1,0 +1,11 @@
+to initialise .git
+=>  git init
+
+To make file at stage level
+=>  git add <filename>
+
+To make file onstage
+=> git 	restore --staged <filename>
+
+To commit changes in folder
+=>  git commit -m "message to be written"
