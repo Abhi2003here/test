@@ -9,3 +9,6 @@ To make file onstage
 
 To commit changes in folder
 =>  git commit -m "message to be written"
+
+To get the history of commits
+=> git log
