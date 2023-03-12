@@ -10,6 +10,7 @@ To make file onstage
 To commit changes in folder
 =>  git commit -m "message to be written"
 
+
 // stashing the changes
 
 We can make changes stacked before committing them and after staging by using 
@@ -20,3 +21,31 @@ We can also put that changes to upstaged area by using
 
 We can remove all the commits above <commit ID>
 =>  git reset <commit ID>
+
+
+// connecting remote repository to local repository 
+
+To connect remote and local repository 
+=>  git remote add <NameForLink> LinkOfRepo.com
+
+To share changes made in local repo with remote repo
+=>  git push <NameForLink> <NameOfBranchToPush>
+
+
+
+
+// create new branch
+
+To create new branch 
+=>  git branch <BranchName>
+
+When we commit , all changes happen in branch that is pointed by HEAD pointer.
+All the commits will be added on HEAD pointer
+
+To change HEAD 
+=>  git checkout <BranchName>
+
+To merge the branch to main branch 
+=>  git merge <BranchName>
+    <BranchName> branch will merge with main branch after executing this command
+
